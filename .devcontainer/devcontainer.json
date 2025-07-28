@@ -1,0 +1,13 @@
+{
+  "name": "Claude Coder Dev",
+  "build": {
+    "dockerfile": "../.gitpod.Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "kodu-ai.claude-coder"
+  ],
+  "postCreateCommand": "echo '🎉 Claude Coder is ready to roll!'"
+}
